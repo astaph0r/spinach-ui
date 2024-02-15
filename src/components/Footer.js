@@ -4,11 +4,10 @@ const Footer = () => {
 	return (
 		<>
 			<div className="flex justify-center items-center px-16 mt-52 w-full text-white bg-blue-900 max-md:px-5 max-md:mt-10 max-md:max-w-full">
-				<div className="flex z-10 gap-5 justify-between -mt-40 mb-0 w-full max-w-[1469px] max-md:flex-wrap max-md:mb-2.5 max-md:max-w-full">
-					<div className="flex flex-col self-end mt-60 max-md:mt-10 max-md:max-w-full">
+				<div className="flex z-10 gap-5 justify-between -mt-40 mb-0 w-full ">
+					<div className="flex flex-col self-end mt-60 ">
 						<div className="text-6xl tracking-tighter leading-[72px] max-md:max-w-full max-md:text-4xl max-md:leading-[53px]">
-							Feeling the lag of <br />
-							inconsistent design?
+							Feeling the lag of inconsistent design?
 						</div>
 						<div className="mt-7 text-2xl font-light leading-9 text-neutral-200 max-md:max-w-full">
 							Partner with us
@@ -26,9 +25,9 @@ const Footer = () => {
 				</div>
 			</div>
 
-			<div className="self-center mt-52 w-full px-32">
-				<div className="flex gap-5 justify-center">
-					<div className="flex flex-col w-[56%] max-md:ml-0 max-md:w-full">
+			<div className="self-center mt-52 w-full px-3 lg:px-60">
+				<div className="grid md:grid-cols-2 grid-cols-1 gap-5 justify-center">
+					<div className="flex flex-col">
 						<div className="flex flex-col self-stretch px-5 pt-2.5 my-auto text-2xl font-light text-neutral-400 max-md:mt-10 max-md:max-w-full">
 							<div className="leading-[150%] max-md:max-w-full">
 								/Next service
@@ -36,7 +35,7 @@ const Footer = () => {
 							<div className="mt-6 text-5xl tracking-tighter text-white max-md:max-w-full max-md:text-4xl">
 								Web and mobile apps
 							</div>
-							<div className="mt-7 leading-9 max-md:max-w-full">
+							<div className="mt-7 leading-9 max-md:max-w-full hidden lg:inline-flex">
 								Design stickiness and retention for web and
 								mobile customer apps with our proven and tested
 								Customer Experience Design process, builds
@@ -49,7 +48,7 @@ const Footer = () => {
 							</div>
 						</div>
 					</div>
-					<div className="flex flex-col ml-5 w-[44%]">
+					<div className="flex flex-col ml-5">
 						<img
 							loading="lazy"
 							alt="illustration"
@@ -61,27 +60,27 @@ const Footer = () => {
 			</div>
 
 			<div className="flex justify-center items-center px-16 pt-12 pb-8 mt-52 w-full bg-black max-md:px-5 max-md:mt-10 max-md:max-w-full">
-				<div className="flex flex-col mt-16 w-full max-w-[1648px] max-md:mt-10 max-md:max-w-full">
-					<div className="flex gap-5 justify-between items-start self-center w-full text-4xl tracking-tighter leading-10 text-white whitespace-nowrap max-w-[1418px] max-md:flex-wrap max-md:max-w-full">
+				<div className="flex flex-col mt-16 w-full">
+					<div className="grid grid-cols-2 md:grid-cols-5 gap-5 justify-between items-start self-center px-8 md:px-1 w-full xl:text-4xl lg:text-3xl md:text-2xl text-4xl tracking-tighter leading-10 text-white">
 						<div className="flex gap-3.5">
-							<div className="my-auto w-3.5 h-3.5 bg-white rounded-full" />
-							<div className="grow">LinkedIn</div>
+							<div className="my-auto aspect-square w-3.5 h-3.5 bg-white rounded-full" />
+							<div>LinkedIn</div>
 						</div>
 						<div className="flex gap-3.5">
-							<div className="self-start mt-1.5 w-3.5 h-3.5 bg-white rounded-full" />
-							<div className="grow">Instagram</div>
+							<div className="my-auto aspect-square w-3.5 h-3.5 bg-white rounded-full" />
+							<div>Instagram</div>
 						</div>
 						<div className="flex gap-3.5">
-							<div className="my-auto w-3.5 h-3.5 bg-white rounded-full" />
-							<div className="grow">Dribbble</div>
+							<div className="my-auto aspect-square w-3.5 h-3.5 bg-white rounded-full" />
+							<div>Dribbble</div>
 						</div>
 						<div className="flex gap-3.5">
-							<div className="my-auto w-3.5 h-3.5 bg-white rounded-full" />
-							<div className="grow">Behance</div>
+							<div className="my-auto aspect-square w-3.5 h-3.5 bg-white rounded-full" />
+							<div>Behance</div>
 						</div>
 						<div className="flex gap-3.5">
-							<div className="my-auto w-3.5 h-3.5 bg-white rounded-full" />
-							<div className="flex-auto">Twitter</div>
+							<div className="my-auto aspect-square w-3.5 h-3.5 bg-white rounded-full" />
+							<div>Twitter</div>
 						</div>
 					</div>
 					<div className="mt-16 max-md:mt-10 max-md:max-w-full">
