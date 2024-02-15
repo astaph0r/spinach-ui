@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
 	return (
-		<>
+		<div id="engage">
 			<div className="flex justify-center items-center px-16 mt-52 w-full text-white bg-blue-900 max-md:px-5 max-md:mt-10 max-md:max-w-full">
 				<div className="flex z-10 gap-5 justify-between -mt-40 mb-0 w-full ">
 					<div className="flex flex-col self-end mt-60 ">
@@ -83,6 +83,8 @@ const Footer = () => {
 							<div>Twitter</div>
 						</div>
 					</div>
+
+
 					<div className="mt-16 max-md:mt-10 max-md:max-w-full">
 						<div className="flex gap-5 max-md:flex-col max-md:gap-0 max-md:">
 							<div className="flex flex-col w-[28%] max-md:ml-0 max-md:w-full">
@@ -157,7 +159,7 @@ const Footer = () => {
 					</div>
 				</div>
 			</div>
-		</>
+		</div>
 	);
 };
 

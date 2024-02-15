@@ -15,3 +15,27 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.scrolling-wrapper-flexbox {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  
+  .card-scroll {
+    flex: 0 0 auto;
+    margin-right: 24px;
+    margin-bottom: 12px;
+  }
+}
+
+
+.scrolling-wrapper-flexbox {
+  margin-bottom: 20px;
+  margin-top: 10px;
+  width: 100%;
+  -webkit-overflow-scrolling: touch;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
